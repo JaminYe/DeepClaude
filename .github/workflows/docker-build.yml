@@ -13,7 +13,7 @@ jobs:
     steps:
       - id: check
         run: |
-          if [ "${{ github.repository }}" = "ErlichLiu/DeepClaude" ]; then
+          if [ "${{ github.repository }}" = "JaminYe/DeepClaude" ]; then
             echo "is_original=true" >> $GITHUB_OUTPUT
           else
             echo "is_original=false" >> $GITHUB_OUTPUT
